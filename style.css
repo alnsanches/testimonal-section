@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+
+.testimonal-section {
+    background: #f1f1f1;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.testimonal-section h1 {
+    font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.testimonal-pics {
+    padding: 40px 0;
+}
+
+.testimonal-pics img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.testimonal-pics img:hover, .testimonal-pics img.active {
+    filter: none;
+}
+
+.testimonal-contents {
+    max-width: 600px;
+    margin: auto;
+}
+
+.testimonal {
+    display: none;
+}
+
+.testimonal.active {
+    display: block;
+}
+
+.testimonal p {
+    color: #5c5c5c;
+    margin-bottom: 20px;
+}
+
+.testimonal .description {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
